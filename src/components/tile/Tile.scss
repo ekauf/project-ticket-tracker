@@ -1,0 +1,35 @@
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+  width: 200px;
+  height: 260px;
+  overflow: hidden;
+  gap: 50px;
+
+  .tile__content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tile__name {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .tile__role {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .tile__ticket {
+    border: none;
+    background-color: antiquewhite;
+    height: 90px;
+    width: 160;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
