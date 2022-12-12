@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Ticket Tracker</h1>
+      <h1 className="page-heading">Ticket Tracker</h1>
       <main className="tile-container">{teamTileJsx}</main>
     </div>
   );
